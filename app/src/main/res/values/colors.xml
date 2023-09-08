@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="primary_dark">#000000</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="darkGray">#222</color>
+    <color name="backgroundColor">#B6B6B6</color>
+    <color name="coffee_brown_background1">#592F1D</color>
+    <color name="coffee_brown_background2">#5A2A12</color>
+    <color name="atn_green_background2">#1e965a</color>
+    <color name="atn_off_white">#e2d8c6</color>
+    <color name="atn_blue">#1385B3</color>
+    <color name="atn_lightorange">#FC842D</color>
+    <color name="atn_darkorange">#FC6A28</color>
+    <color name="atn_pink">#FC6E8E</color>
+    <color name="kh_mauve">#493749</color>
+    <color name="kh_cream">#FDCDAA</color>
+    <color name="kh_mild_grey_text">#4A4A4A</color>
+    <color name="kh_off_white">#F8F8E7</color>
+    <color name="kh_off_white2">#F8E7E7</color>
+
+    <color name="logo_brown_background1">#CA8D43</color>
+    <color name="logo_brown_background2">#CB7444</color>
+</resources>

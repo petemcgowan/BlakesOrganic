@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:backgroundTint="@color/kh_off_white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/kh_off_white"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Instagram-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:textColor="@color/kh_off_white"
+            android:backgroundTint="@color/atn_lightorange"
+            android:background="@drawable/customborder"
+            android:id="@+id/igView">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/igTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="Follow us on Instagram"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"></Space>
+                <ImageView
+                    android:id="@+id/igLogo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/cover"
+                    android:src="@drawable/instagram_mobile_icon"
+                    />
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"></Space>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/igText"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Follow us on Instagram and don't miss out on any moments."
+                android:textSize="17sp"/>
+        </LinearLayout>
+
+        <!-- Facebook-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:backgroundTint="@color/atn_pink"
+            android:textColor="@color/kh_off_white"
+            android:background="@drawable/customborder"
+            android:id="@+id/fbView">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/fbTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="Join our community on Facebook"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"></Space>
+                <ImageView
+                    android:id="@+id/fbLogo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="right"
+                    android:gravity="end"
+                    android:contentDescription="@string/cover"
+                    android:src="@drawable/facebook_logo"
+                    />
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"></Space>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/fbText"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Like our Facebook page and keep up with all the latest news and updates"
+                android:textSize="17sp"/>
+
+        </LinearLayout>
+
+        <!-- Youtube or Website-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:backgroundTint="@color/atn_darkorange"
+            android:textColor="@color/kh_off_white"
+            android:background="@drawable/customborder"
+            android:id="@+id/wbView">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/wbTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="Explore our Website"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"></Space>
+                <ImageView
+                    android:id="@+id/wbLogo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/cover"
+                    android:src="@mipmap/blakes_always_orgnic_logo_small_transparent"
+                    />
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"></Space>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/wbText"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Order coffee and kefir online, bulk discounts available!"
+                android:textSize="17sp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/description1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/description1"
+            android:textColor="@color/kh_mild_grey_text"
+            android:textSize="14sp" />
+        <ImageView
+            android:id="@+id/historyImage1"
+            android:src="@drawable/history_organic_coffee_beans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/cover"
+            />
+        <TextView
+            android:id="@+id/description2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/description2"
+            android:textColor="@color/kh_mild_grey_text"
+            android:textSize="14sp" />
+        <ImageView
+            android:id="@+id/historyImage2"
+            android:src="@drawable/history_lough_leitrim_boardwalk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/cover"
+            />
+        <TextView
+            android:id="@+id/description3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/description3"
+            android:textColor="@color/kh_mild_grey_text"
+            android:textSize="14sp" />
+        <ImageView
+            android:id="@+id/historyImage3"
+            android:src="@drawable/history_lough_leitrim_small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/cover"
+            />
+        <TextView
+            android:id="@+id/description4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/description4"
+            android:textColor="@color/kh_mild_grey_text"
+            android:textSize="14sp" />
+        <ImageView
+            android:id="@+id/historyImage4"
+            android:src="@drawable/history_glencar_waterfall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/cover"
+            />
+        <TextView
+            android:id="@+id/description5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/description5"
+            android:textColor="@color/kh_mild_grey_text"
+            android:textSize="14sp" />
+        <ImageView
+            android:id="@+id/historyImage5"
+            android:src="@drawable/history_sheep_shepard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/cover"
+            />
+        <TextView
+            android:id="@+id/description6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/description6"
+            android:textColor="@color/kh_mild_grey_text"
+            android:textSize="14sp" />
+        <ImageView
+            android:id="@+id/historyImage6"
+            android:src="@drawable/history_wooden_850_vat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/cover"
+            />
+        <TextView
+            android:id="@+id/description7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/description7"
+            android:textColor="@color/kh_mild_grey_text"
+            android:textSize="14sp" />
+        <ImageView
+            android:id="@+id/historyImage7"
+            android:src="@drawable/kefir_in_fridge_blakes_organic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/cover"
+            />
+        <TextView
+            android:id="@+id/description8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/description8"
+            android:textColor="@color/kh_mild_grey_text"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
+
