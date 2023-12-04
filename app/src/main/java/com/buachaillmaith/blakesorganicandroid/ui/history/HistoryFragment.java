@@ -52,7 +52,7 @@ public class HistoryFragment extends Fragment implements ItemClickListener {
         binding.wbView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Uri uri = Uri.parse("https://blakesalwaysorganic.ie/online-shop-3/");
+                Uri uri = Uri.parse("https://blakesalwaysorganic.ie/online-shop/");
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(intent);
             }

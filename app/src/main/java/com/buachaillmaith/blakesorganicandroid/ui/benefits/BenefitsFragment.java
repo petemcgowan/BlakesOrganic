@@ -129,7 +129,7 @@ public class BenefitsFragment extends Fragment implements ItemClickListener {
 
 
         Item benefit1 = new Item(
-                R.drawable.benefit1_kefir_nutrients,
+                R.drawable.benefit_kefir_is_a_fantastic_source_of_many_nutrients_with_spoon_reduce,
                 "Kefir originated from parts of Eastern Europe and Southwest Asia. Its name comes from the Turkish word “keyif,” which refers to feeling good after eating.\n" +
                         "\n" +
                         "This is a fermented drink, traditionally made with cow’s milk or goat’s milk.\n" +
@@ -191,7 +191,7 @@ public class BenefitsFragment extends Fragment implements ItemClickListener {
         Constants.benefitsList.add(benefit2);
 
         Item benefit3 = new Item(
-                R.drawable.benefit3_bacteria_allv1,
+                R.drawable.benefit3_antibacterial_properties_kefir_reduce,
                 "Certain probiotics in kefir are believed to protect against infections.\n" +
                         "\n" +
                         "This includes the probiotic Lactobacillus kefiri, which is unique to kefir.\n" +
@@ -212,7 +212,7 @@ public class BenefitsFragment extends Fragment implements ItemClickListener {
         );
         Constants.benefitsList.add(benefit3);
         Item benefit5 = new Item(
-                R.drawable.benefit5_cancer_anti_oxidant_fermentation,
+                R.drawable.benefit_cancer_killing_properties_reduce,
                 "Cancer is one of the world’s leading causes of death. It occurs when abnormal cells in your body grow uncontrollably, such as in a tumor.\n" +
                         "\n" +
                         "The probiotics in fermented dairy products are believed to reduce tumor growth by stimulating your immune system. So, it is possible that kefir may fight cancer.\n" +

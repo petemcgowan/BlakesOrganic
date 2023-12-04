@@ -53,7 +53,7 @@ public class StockistsFragment extends Fragment implements ItemClickListener {
     private void populateStockists() {
         // Rua Cafe and Delicatessen
         Item stockistCafeRua = new Item(
-                R.drawable.stockist_cafe_rua,
+                R.drawable.stockist_cafe_rua_upscayl_4x_realesrgan_x4plus,
                 "Spencer St, Gorteendrunagh, Castlebar, Co. Mayo",  // address
                 "Cafe Rua",   // name of stockist
                 "Castlebar, Co. Mayo", //
@@ -64,7 +64,7 @@ public class StockistsFragment extends Fragment implements ItemClickListener {
 
         // Shannon Fruit, Tullyvarraga
         Item stockistCosgroveSligo = new Item(
-                R.drawable.stockist_shannon_fruit,
+                R.drawable.stockist_shannon_fruit_upscayl_4x_realesrgan_x4plus,
                 "Skycourt Shopping Centre, Tullyvarraga, Shannon, Co. Clare",  // address
                 "Shannon Fruit",   // name of stockist
                 "Shannon, Co. Clare", //
@@ -75,7 +75,7 @@ public class StockistsFragment extends Fragment implements ItemClickListener {
 
         // Donnybrook Fair, Dublin 4
         Item donnybrookFairDublin = new Item(
-                R.drawable.stockist_donnybrook_fair,
+                R.drawable.stockist_donnybrook_fair_upscayl_4x_ultrasharp,
                 "89 Morehampton Rd, Dublin 4",  // address
                 "Donnybrook Fair",   // name of stockist
                 "Dublin 4", //
@@ -86,7 +86,7 @@ public class StockistsFragment extends Fragment implements ItemClickListener {
 
         // Morton's, Ranelagh, Dublin
         Item mortonsRanelagh = new Item(
-                R.drawable.stockist_mortons_ranelagh,
+                R.drawable.stockist_mortons_ranelagh_upscayl_4x_realesrgan_x4plus,
                 "Ranelagh, Dublin",  // address
                 "Morton's",   // name of stockist
                 "Ranelagh, Dublin", //
@@ -97,7 +97,7 @@ public class StockistsFragment extends Fragment implements ItemClickListener {
 
         // Cosgrove & Son, Abbeyquarter North
         Item cosgroveAbbeyquarter = new Item(
-                R.drawable.stockist_cosgrove_sligo,
+                R.drawable.stockist_cosgrove_sligo_upscayl_4x_realesrgan_x4plus,
                 "32 Market St, Abbeyquarter North, Sligo",  // address
                 "Cosgrove & Son",   // name of stockist
                 "Abbeyquarter North, Sligo", //
@@ -108,7 +108,7 @@ public class StockistsFragment extends Fragment implements ItemClickListener {
 
         // Osta, Sligo
         Item ostaSligo = new Item(
-                R.drawable.stockist_osta_sligo,
+                R.drawable.stockist_osta_sligo_upscayl_4x_ultrasharp,
                 "Garavogue Weir, Stephen Street, Sligo",  // address
                 "Osta",   // name of stockist
                 "Stephen Street, Sligo", //
@@ -119,7 +119,7 @@ public class StockistsFragment extends Fragment implements ItemClickListener {
 
         // Nature Health, Navan
         Item natureNavan = new Item(
-                R.drawable.stockist_nature_navan2,
+                R.drawable.stockist_nature_navan2_upscayl_4x_realesrgan_x4plus,
                 "Navan Shoppping Cantre, 1 Kennedy Rd, Navan",  // address
                 "Nature Health",   // name of stockist
                 "Navan Shoppping Cantre", //
@@ -141,7 +141,7 @@ public class StockistsFragment extends Fragment implements ItemClickListener {
 
         // Natures Gold, Dunboyne
         Item natureDunboyne = new Item(
-                R.drawable.stockist_nature_dunboyne,
+                R.drawable.stockist_nature_dunboyne_upscayl_4x_realesrgan_x4plus,
                 "Avoca, Dunboyne",  // address
                 "Nature's Gold",   // name of stockist
                 "Avoca, Dunboyne", //
@@ -163,7 +163,7 @@ public class StockistsFragment extends Fragment implements ItemClickListener {
 
         // Boyne Valley Seafoods, Drogheda
         Item boyneDrogheda = new Item(
-                R.drawable.stockist_boyne_drogheda,
+                R.drawable.stockist_boyne_drogheda_upscayl_4x_ultrasharp,
                 "Southgate Shopping Centre, Drogheda",  // address
                 "Boyne Valley Seafoods",   // name of stockist
                 "Drogheda", //
@@ -174,7 +174,7 @@ public class StockistsFragment extends Fragment implements ItemClickListener {
 
         // The Hopsack, Rathmines
         Item hopsackRathmines = new Item(
-                R.drawable.stockist_hopsack_rathmines,
+                R.drawable.stockist_hopsack_rathmines_upscayl_4x_realesrgan_x4plus,
                 "The Swan Shopping Centre, Rathmines Road Lower",  // address
                 "The Hopsack",   // name of stockist
                 "Swan Shopping Centre", //
@@ -185,7 +185,7 @@ public class StockistsFragment extends Fragment implements ItemClickListener {
 
         // Nature’s Gold, Rathcoole
         Item natureRathcoole = new Item(
-                R.drawable.stockist_nature_rathcoole,
+                R.drawable.stockist_nature_rathcoole_upscayl_4x_realesrgan_x4plus,
                 "Avoca Stores & cafe, Naas Road, Rathcoole",  // address
                 "Nature’s Gold",   // name of stockist
                 "Rathcoole", //
@@ -196,7 +196,7 @@ public class StockistsFragment extends Fragment implements ItemClickListener {
 
         // Fresh, Carrick On Shannon
         Item stockistFreshCarrick = new Item(
-                R.drawable.stockist_fresh_carrick,
+                R.drawable.stockist_fresh_carrick_upscayl_4x_realesrgan_x4plus,
                 "7 Landmark Court, Carrick On Shannon",  // address
                 "Fresh, Carrick",   // name of stockist
                 "Carrick On Shannon", //
@@ -207,7 +207,7 @@ public class StockistsFragment extends Fragment implements ItemClickListener {
 
         // Georges Fish Store, Stepaside
         Item georgeFishStore = new Item(
-                R.drawable.stockist_georges_fish_store,
+                R.drawable.stockist_georges_fish_store_upscayl_4x_realesrgan_x4plus,
                 "18 Enniskerry Road, Stepaside",  // address
                 "George's Fish Store",   // name of stockist
                 "Stepaside, Dublin", //
@@ -218,7 +218,7 @@ public class StockistsFragment extends Fragment implements ItemClickListener {
 
         // Donnybrook Fair, Stillorgan
         Item donnybrookFairStillorgan = new Item(
-                R.drawable.stockist_donnybrook_fair_stillorgan,
+                R.drawable.stockist_donnybrook_fair_stillorgan_upscayl_4x_ultrasharp,
                 "47 - 49 Lower Kilmacud Road, Stillorgan Shopping Centre",  // address
                 "Donnybrook Fair",   // name of stockist
                 "Stillorgan", //
@@ -229,7 +229,7 @@ public class StockistsFragment extends Fragment implements ItemClickListener {
 
         // Select Store, Dalkey
         Item selectDalkey = new Item(
-                R.drawable.stockist_select_dalkey,
+                R.drawable.stockist_select_dalkey_upscayl_4x_realesrgan_x4plus,
                 "1 Railway Rd, Dalkey",  // address
                 "Select Store",   // name of stockist
                 "Dalkey, Dublin", //
@@ -251,7 +251,7 @@ public class StockistsFragment extends Fragment implements ItemClickListener {
 
         // Manna Organic Store, Island of Geese, Kerry
         Item mannaOrganic = new Item(
-                R.drawable.stockist_manna_organic,
+                R.drawable.stockist_manna_organic_upscayl_4x_ultrasharp,
                 "Island of Geese, Kerry",  // address
                 "Manna Organic Store",   // name of stockist
                 "Island of Geese, Kerry", //
@@ -262,7 +262,7 @@ public class StockistsFragment extends Fragment implements ItemClickListener {
 
         // Simple Simons, Donegal
         Item simpleSimons = new Item(
-                R.drawable.stockist_simple_simons,
+                R.drawable.stockist_simple_simons_upscayl_4x_ultrasharp,
                 "Donegal",  // address
                 "Simple Simons",   // name of stockist
                 "Donegal", //
@@ -273,7 +273,7 @@ public class StockistsFragment extends Fragment implements ItemClickListener {
 
         // Between The Bridges, Enniskillen
         Item betweenTheBridges = new Item(
-                R.drawable.stockist_between_the_bridges,
+                R.drawable.stockist_between_the_bridges_upscayl_4x_realesrgan_x4plus,
                 "Enniskillen",  // address
                 "Between The Bridges",   // name of stockist
                 "Enniskillen", //
@@ -295,7 +295,7 @@ public class StockistsFragment extends Fragment implements ItemClickListener {
 
         // McCambridges, Galway
         Item stockistMcCambridges = new Item(
-                R.drawable.stockist_mc_cambridges_galway,
+                R.drawable.stockist_mc_cambridges_galway_upscayl_4x_realesrgan_x4plus,
                 "38/39 Shop Street, Galway",  // address
                 "McCambridges",   // name of stockist
                 "Galway", //

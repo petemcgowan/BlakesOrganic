@@ -49,7 +49,7 @@ public class ProductsFragment extends Fragment implements ItemClickListener {
     private void populateProducts()
     {
         Item product1 = new Item(
-            R.drawable.product_sheebeg_cheese,
+            R.drawable.product_sheebeg_cheese_upscayl_4x_realesrgan_x4plus,
             "Our Sheebeg Organic Raw Milk Irish made cheese is a strong cheddar type cheese, matured for 24-36 months here in The Food Hub, before being cut into 140g wedges for our customers\n",
             "Sheebeg Cheese", // longer description (the Detail activity)
             "• Matured • Irish • 140g ",
@@ -59,7 +59,7 @@ public class ProductsFragment extends Fragment implements ItemClickListener {
         Constants.productList.add(product1);
 
         Item product2 = new Item(
-            R.drawable.product_coffee_packs_side_by_side,
+            R.drawable.product_blakes_culture_blend_scaled_upscayl_4x_ultrasharp,
             "Culture Blend is a blend of three Organic coffee beans designed to give our coffee a nice body, with low acidity, and a hint of sweetness. \n" +
                     "The main bean variety we use is an Arabica bean from Indonesia: Sumatra Mandheling Raja Gayo : The King of the Gayo Mountain. This gives our blend a nice smooth body. \n" +
                     "To this we add some Peruvian Arabica: HB Grade One, which gives our blend its sweetness and a hint of fruitiness. Then we add a small amount of a quality Asian Robusta for that extra kick of caffeine.\n" +
@@ -76,7 +76,7 @@ public class ProductsFragment extends Fragment implements ItemClickListener {
         Constants.productList.add(product2);
 
         Item product3 = new Item(
-            R.drawable.organic_pure_decaf_high_res_blakes_organic,
+            R.drawable.product_organic_pure_decaf_high_res_blakes_organic_upscayl_4x_ultrasharp,
             "Our Peru CO2 Decaf is made from only Peruvian 100% Organic Arabica coffee beans, using the CO2 decaffeination process. \n" +
                     "This process uses carbon dioxide to extract almost all of the caffeine from the beans without extracting the rich flavours that are found within the Peruvian Arabica coffee, (rather than being soaked out and then put back in as they do in both the indirect solvent or Swiss Water decaffeination processes).\n" +
                     "\n" +
@@ -90,7 +90,7 @@ public class ProductsFragment extends Fragment implements ItemClickListener {
         Constants.productList.add(product3);
 
         Item product4 = new Item(
-            R.drawable.product_purely_arabica_back,
+            R.drawable.product_purely_arabica_upscayl_4x_ultrasharp,
             "Feedback we received from coffee lovers indicated a demand for a blend with a milder caffeine boost. \n" +
                     "We investigated mixing decaffeinated beans with arabica beans to give a refreshing taste with less kick, but the composition of the decaffeinated coffee beans proved unworkable. \n" +
                     "We then experimented with South American beans, using the fruity, well-balanced Peruvian Arabica hard beans, blended with a rich flavoured Colombian Excelso Arabica. \n" +
@@ -115,7 +115,7 @@ public class ProductsFragment extends Fragment implements ItemClickListener {
         Constants.productList.add(product5);
 
         Item product6 = new Item(
-            R.drawable.kefir_in_a_fridge_looking_cool,
+            R.drawable.kefir_in_a_fridge_looking_cool_upscayl_4x_ultrasharp,
             "A 1 cup serving of low fat kefir contains:\n" +
                     "\n" +
                     "Protein: 9 grams\n" +
