@@ -3,13 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_history">
-
-    <fragment
-        android:id="@+id/navigation_history"
-        android:name="com.buachaillmaith.blakesorganicandroid.ui.history.HistoryFragment"
-        android:label="@string/title_history"
-        tools:layout="@layout/fragment_history" />
+    app:startDestination="@+id/navigation_products">
 
     <fragment
         android:id="@+id/navigation_products"
@@ -28,6 +22,12 @@
         android:name="com.buachaillmaith.blakesorganicandroid.ui.benefits.BenefitsFragment"
         android:label="@string/title_benefits"
         tools:layout="@layout/fragment_benefits" />
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.buachaillmaith.blakesorganicandroid.ui.history.HistoryFragment"
+        android:label="@string/title_history"
+        tools:layout="@layout/fragment_history" />
 
     <fragment
         android:id="@+id/navigation_stockists"

@@ -13,153 +13,6 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <!-- Instagram-->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:textColor="@color/kh_off_white"
-            android:backgroundTint="@color/atn_lightorange"
-            android:background="@drawable/customborder"
-            android:id="@+id/igView">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-                <TextView
-                    android:id="@+id/igTitle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="50dp"
-                    android:text="Follow us on Instagram"
-                    android:textSize="17sp"
-                    android:textStyle="bold"/>
-
-                <Space
-                    android:layout_width="0dp"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"></Space>
-                <ImageView
-                    android:id="@+id/igLogo"
-                    android:layout_width="wrap_content"
-                    android:layout_height="40dp"
-                    android:adjustViewBounds="true"
-                    android:contentDescription="@string/cover"
-                    android:src="@drawable/instagram_mobile_icon"
-                    />
-                <Space
-                    android:layout_width="0dp"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"></Space>
-            </LinearLayout>
-            <TextView
-                android:id="@+id/igText"
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:text="Follow us on Instagram and don't miss out on any moments."
-                android:textSize="17sp"/>
-        </LinearLayout>
-
-        <!-- Facebook-->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:backgroundTint="@color/atn_pink"
-            android:textColor="@color/kh_off_white"
-            android:background="@drawable/customborder"
-            android:id="@+id/fbView">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-                <TextView
-                    android:id="@+id/fbTitle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="50dp"
-                    android:text="Join our community on Facebook"
-                    android:textSize="17sp"
-                    android:textStyle="bold"/>
-
-                <Space
-                    android:layout_width="0dp"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"></Space>
-                <ImageView
-                    android:id="@+id/fbLogo"
-                    android:layout_width="wrap_content"
-                    android:layout_height="40dp"
-                    android:adjustViewBounds="true"
-                    android:layout_gravity="right"
-                    android:gravity="end"
-                    android:contentDescription="@string/cover"
-                    android:src="@drawable/facebook_logo"
-                    />
-                <Space
-                    android:layout_width="0dp"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"></Space>
-            </LinearLayout>
-
-            <TextView
-                android:id="@+id/fbText"
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:text="Like our Facebook page and keep up with all the latest news and updates"
-                android:textSize="17sp"/>
-
-        </LinearLayout>
-
-        <!-- Youtube or Website-->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:backgroundTint="@color/atn_darkorange"
-            android:textColor="@color/kh_off_white"
-            android:background="@drawable/customborder"
-            android:id="@+id/wbView">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-                <TextView
-                    android:id="@+id/wbTitle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="50dp"
-                    android:text="Explore our Website"
-                    android:textSize="17sp"
-                    android:textStyle="bold"/>
-
-                <Space
-                    android:layout_width="0dp"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"></Space>
-                <ImageView
-                    android:id="@+id/wbLogo"
-                    android:layout_width="wrap_content"
-                    android:layout_height="50dp"
-                    android:adjustViewBounds="true"
-                    android:contentDescription="@string/cover"
-                    android:src="@mipmap/blakes_always_orgnic_logo_small_transparent"
-                    />
-                <Space
-                    android:layout_width="0dp"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"></Space>
-            </LinearLayout>
-
-            <TextView
-                android:id="@+id/wbText"
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:text="Order coffee and kefir online, bulk discounts available!"
-                android:textSize="17sp"/>
-
-        </LinearLayout>
-
         <TextView
             android:id="@+id/description1"
             android:layout_width="match_parent"
@@ -276,10 +129,151 @@
             android:id="@+id/description8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
             android:text="@string/description8"
+            android:gravity="center"
             android:textColor="@color/kh_mild_grey_text"
             android:textSize="14sp" />
+
+        <!-- Instagram-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:backgroundTint="@color/light_cream"
+            android:background="@drawable/customborder"
+            android:id="@+id/igView">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/igLogo"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="12"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/instagram_mobile_icon"
+                    android:contentDescription="@string/cover"/>
+
+                <TextView
+                    android:id="@+id/igTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="88"
+                    android:textColor="@color/dark_coffee_brown"
+                    android:text="Follow us on Instagram"
+                    android:gravity="center"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/igText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Follow us on Instagram and don't miss out on any moments."
+                android:gravity="center"
+                android:textColor="@color/dark_coffee_brown"
+                android:textSize="17sp"/>
+        </LinearLayout>
+
+        <!-- Facebook-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:backgroundTint="@color/medium_brown"
+            android:background="@drawable/customborder"
+            android:id="@+id/fbView">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/fbLogo"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="12"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/facebook_logo"
+                    android:contentDescription="@string/cover"/>
+
+                <TextView
+                    android:id="@+id/fbTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="88"
+                    android:textColor="@color/light_cream"
+                    android:text="Join our community on Facebook"
+                    android:gravity="center"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/fbText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Like our Facebook page and keep up with all the latest news and updates"
+                android:gravity="center"
+                android:textColor="@color/light_cream"
+                android:textSize="17sp"/>
+        </LinearLayout>
+
+        <!-- Youtube or Website-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:backgroundTint="@color/dark_coffee_brown"
+            android:background="@drawable/customborder"
+            android:id="@+id/wbView">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/wbLogo"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="12"
+                    android:adjustViewBounds="true"
+                    android:src="@mipmap/ic_launcher_round_splash"
+                    android:contentDescription="@string/cover"/>
+
+                <TextView
+                    android:id="@+id/wbTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="88"
+                    android:textColor="@color/light_cream"
+                    android:text="Explore our Website"
+                    android:gravity="center"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/wbText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Order coffee and kefir online, bulk discounts available!"
+                android:gravity="center"
+                android:textColor="@color/light_cream"
+                android:textSize="17sp"/>
+        </LinearLayout>
+
+
+
 
     </LinearLayout>
 

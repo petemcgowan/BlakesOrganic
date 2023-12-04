@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Blakes Organic Coffee</string>
+    <string name="app_name">Blakes Organic</string>
     <string name="title_stockists">Stockists</string>
-    <string name="title_history">Blakes History</string>
+    <string name="title_history">History</string>
     <string name="title_products">Products</string>
     <string name="title_benefits">Benefits</string>
     <string name="title_faq">FAQ</string>
