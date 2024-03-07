@@ -4,7 +4,7 @@
 ## Main vs design/release project versions
 
 This is the main code project for Blakes Organic. You can find its design/release project here:
-https://github.com/petemcgowan/BlakesOrganicJava_design_release
+https://github.com/petemcgowan/BlakesOrganic_design_release
 
 <div align="center">
 
